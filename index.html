@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rwd</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Main wrapper -->
+    <div class="main-wrapper">
+        <!-- Header -->
+        <header class="top-header">
+            <div class="top-logo">
+                <a href="#" class="top-logo-img">
+                    <img src="img/top-logo-img.png" alt="">
+                </a>
+                <h3 class="top-logo-title"><span>Lispum</span> Media</h3>
+            </div>
+            <label for="off-canvas-menu">MENU</label>
+            <input id="off-canvas-menu" type="checkbox" name="off-canvas-menu">
+            <nav class="top-navigation">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">work</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">resources</a></li>
+                    <li><a href="#">articles</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Banner -->
+        <section class="banner">
+            <h1>lipsum media presentation</h1>
+            <section class="main-banner-section">
+                <picture>
+                    <source media="(max-width: 570px)" srcset="img/banner-main-small-img.jpg">
+                    <source media="(max-width: 995px)" srcset="img/banner-main-middle-img.jpg">
+                    <img src="img/banner-main-big-img.jpg" alt="Banner image">
+                </picture>
+                <dl class="client-description">
+                    <dt>client</dt>
+                    <dd>Jommy</dd>
+                    <dt>project description</dt>
+                    <dd>olor massa hac auctor! Ac, mauris massa. Sit pellentesque ridiculus pid, scelerisque augue amet parturient? </dd>
+                    <dt>software</dt>
+                    <dd>Photoshop</dd>
+                    <dt>level of service</dt>
+                    <dd>Photoshop</dd>
+                </dl>
+            </section>
+            <article class="banner-article">
+                <h4>project description</h4>
+                <picture>
+                    <source media="(max-width: 570px)" srcset="img/banner-article-img.jpg">
+                    <source media="(max-width: 796px)" srcset="img/banner-article-small-img.jpg">
+                    <img src="img/banner-article-img.jpg" alt="Article image">
+                </picture>
+                <p>Ac aliquam pid amet, lorem eu, etiam ultrices, egestas. Et porttitor a, lacus egestas est rhoncus, egestas amet facilisis augue pellentesque. Nec? Velit tristique. Proin facilisis porta porttitor in tortor vel</p>
+                <button>Raed more</button>
+            </article>
+        </section>
+        <!-- Articles block -->
+        <section class="articles-block">
+            <article class="our-services">
+                <h4>our <span>services</span></h4>
+                <ul>
+                    <li>
+                        <a href="#"></a>Ac tristique sagittis turpis</li>
+                    <li>
+                        <a href="#"></a>Duis mus nec porttitor</li>
+                    <li>
+                        <a href="#"></a>Phasellus lectus cras</li>
+                    <li>
+                        <a href="#"></a>Ac tristique sagittis turpis</li>
+                    <li>
+                        <a href="#"></a>Ac tristique sagittis turpis</li>
+                    <li>
+                        <a href="#"></a>Ac tristique sagittis turpis</li>
+                </ul>
+            </article>
+            <article class="did-you-know">
+                <h4>did you <span>know?</span></h4>
+                <p>Ac tristique sagittis turpis dis purus egestas! Duis mus nec porttitor hac ac dictumst, porttitor eros adipiscing elementum tincidunt urna mus porttitor odio, non tristique adipiscing lorem, sed nec vel adipiscing sit, quis platea parturient sit adipiscing et massa . Risus, placerat. Augue etiam et dis velit ut, auctor et, duis dolor nunc nunc, augue nisi nascetur, porta</p>
+                <button>Raed more</button>
+            </article>
+            <article class="contact">
+                <h4>contact</h4>
+                <ul>
+                    <li>
+                        <span class="fa fa-mobile fa-3x icon"></span>
+                        <a href="tel:2038104300" class="contact-phone">203-810-4300</a>
+                    </li>
+                    <li>
+                        <span class="fa fa-phone-square fa-2x icon"></span>
+                        <a href="tel:2038104300" class="contact-phone">203-810-4300</a>
+                    </li>
+                    <li>
+                        <span class="fa fa-envelope fa-2x icon"></span>
+                        <a href="mailto:Contact@lipsum.com" class="contact-info">Contact@lipsum.com</a>
+                    </li>
+                    <li>
+                        <span class="fa fa-home fa-3x icon"></span>
+                        <span class="contact-info">50 Washington street</span>
+                    </li>
+                    <li>
+                        <span class="icon"></span>
+                        <span class="contact-info">Sute 1048</span>
+                    </li>
+                    <li>
+                        <span class="icon"></span>
+                        <span class="contact-info">lipsume 0644</span>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <!-- Article our clients -->
+        <article class="our-clients">
+            <h4>our <span>clients</span></h4>
+            <ul>
+                <li>
+                    <a href="#"><img src="img/att.jpg" alt="client"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/inc.jpg" alt="client"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/auto.jpg" alt="client"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/visa.jpg" alt="client"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/polar.jpg" alt="client"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/gap.jpg" alt="client"></a>
+                </li>
+            </ul>
+        </article>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="navigation-wrapper">
+                <div class="footer-logo">
+                    <a href="#" class="footer-logo-img">
+                        <img src="img/footer-logo-img.png" alt="footer logotype">
+                    </a>
+                    <h3 class="footer-logo-title"><span>Lispum</span> Media</h3>
+                </div>
+                <nav class="footer-navigation">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">work</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">resources</a></li>
+                        <li><a href="#">articles</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="copyright">&copy; 2016 lipsum media, llc</p>
+        </footer>
+    </div>
+</body>
+
+</html>
